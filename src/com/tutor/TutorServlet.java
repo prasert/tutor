@@ -7,6 +7,6 @@ import javax.servlet.http.*;
 public class TutorServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		resp.setContentType("text/plain");
-		resp.getWriter().println("Hello, boy");
+		resp.getWriter().println("Hello, boy boy");
 	}
 }
